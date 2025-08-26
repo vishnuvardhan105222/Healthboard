@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTrack - Patient Wellness Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile">
+                <img src="https://documents.iplt20.com/ipl/IPLHeadshot2025/1220.png" alt="Patient Profile Image">
+                <h1>Phil Salt</h1>
+            </div>
+            <div class="notifications">
+                <i class="fas fa-bell"></i>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Appointments</a></li>
+                    <li><a href="#">Prescriptions</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main">
+            <section class="health-metrics">
+                <h2 class="section-title">Health Metrics</h2>
+                <div class="cards">
+                    <div class="card">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Heart Rate</h3>
+                        <p>72 bpm</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-stethoscope"></i>
+                        <h3>Blood Pressure</h3>
+                        <p>120/80 mmHg</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-lungs"></i>
+                        <h3>Oxygen Level</h3>
+                        <p>98%</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-weight-scale"></i>
+                        <h3>BMI</h3>
+                        <p>22.5</p>
+                    </div>
+                </div>
+            </section>
+            <section class="patient-profile">
+                <h2 class="section-title">Patient Profile</h2>
+                <ul>
+                    <li><strong>Name:</strong> John Doe</li>
+                    <li><strong>Age:</strong> 35</li>
+                    <li><strong>Gender:</strong> Male</li>
+                    <li><strong>Email:</strong> john.doe@example.com</li>
+                    <li><strong>Phone:</strong> (123) 456-7890</li>
+                    <li><strong>Doctor Assigned:</strong> Dr. Emily Smith</li>
+                </ul>
+            </section>
+            <section class="appointments">
+                <h2 class="section-title">Appointments</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Doctor</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2025-09-05</td>
+                            <td>10:00 AM</td>
+                            <td>Dr. Emily Smith</td>
+                            <td>Upcoming</td>
+                        </tr>
+                        <tr>
+                            <td>2025-08-20</td>
+                            <td>2:00 PM</td>
+                            <td>Dr. Michael Johnson</td>
+                            <td>Past</td>
+                        </tr>
+                        <tr>
+                            <td>2025-09-15</td>
+                            <td>11:30 AM</td>
+                            <td>Dr. Emily Smith</td>
+                            <td>Upcoming</td>
+                        </tr>
+                        <tr>
+                            <td>2025-07-10</td>
+                            <td>9:00 AM</td>
+                            <td>Dr. Sarah Lee</td>
+                            <td>Past</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="prescriptions">
+                <h2 class="section-title">Prescriptions</h2>
+                <ul>
+                    <li>
+                        <strong>Medicine:</strong> Aspirin<br>
+                        <strong>Dosage:</strong> 100mg daily<br>
+                        <strong>Doctor:</strong> Dr. Emily Smith<br>
+                        <strong>Duration:</strong> 7 days
+                    </li>
+                    <li>
+                        <strong>Medicine:</strong> Ibuprofen<br>
+                        <strong>Dosage:</strong> 200mg as needed<br>
+                        <strong>Doctor:</strong> Dr. Michael Johnson<br>
+                        <strong>Duration:</strong> 5 days
+                    </li>
+                    <li>
+                        <strong>Medicine:</strong> Amoxicillin<br>
+                        <strong>Dosage:</strong> 500mg twice daily<br>
+                        <strong>Doctor:</strong> Dr. Sarah Lee<br>
+                        <strong>Duration:</strong> 10 days
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
